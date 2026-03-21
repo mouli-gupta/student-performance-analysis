@@ -1,116 +1,112 @@
 # Student Performance Analysis
 
-A complete data analysis and machine learning project focused on understanding the factors affecting student academic performance using real-world data.
+A data analysis and machine learning project focused on identifying key factors affecting student academic performance.
 
 ---
 
-##  Overview
+## Overview
 
-This project analyzes student performance data to uncover patterns, relationships, and key factors that influence scores in Math, Reading, and Writing.
+This project explores student performance data to uncover patterns and relationships influencing scores in Math, Reading, and Writing.
 
-The analysis includes data cleaning, visualization, statistical testing, and predictive modeling.
+The workflow includes data preprocessing, visualization, statistical testing, and predictive modeling.
 
 Full Report: [View PDF](student_analysis.pdf)
 
 ---
 
-##  Dataset
+## Dataset
 
-- Source: Student Score Dataset
-- Total Records: 30,641
-- Features include:
-  - Gender
-  - Ethnic Group
-  - Parental Education
-  - Test Preparation
-  - Weekly Study Hours
-  - Scores in Math, Reading, Writing
+- Source: Student Score Dataset  
+- Records: 30,641  
+
+Features include:
+- Gender  
+- Ethnic Group  
+- Parental Education  
+- Test Preparation  
+- Weekly Study Hours  
+- Math, Reading, Writing Scores  
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- SciPy
+Python  
+Pandas, NumPy  
+Matplotlib, Seaborn  
+Scikit-learn  
+SciPy  
 
 ---
 
 ## Data Preprocessing
 
-- Handled missing values using:
-  - Mode (categorical features)
-  - Median (numerical features)
-- Removed irrelevant columns
-- Encoded categorical variables for modeling
+- Missing values handled using:
+  - Mode for categorical features  
+  - Median for numerical features  
+- Removed irrelevant columns  
+- Encoded categorical variables  
 
 ---
 
-##  Exploratory Data Analysis
+## Exploratory Data Analysis
 
-- Gender distribution analysis
-- Impact of parental education on performance
-- Effect of marital status (minimal impact)
-- Subject-wise score distribution
-- Correlation analysis between subjects
+- Gender distribution analysis  
+- Impact of parental education  
+- Effect of marital status  
+- Score distributions  
+- Correlation analysis  
 
- Key Insight:
-- Reading and Writing scores are highly correlated
-- Math is relatively more difficult compared to other subjects :contentReference[oaicite:0]{index=0}
-
----
-
-##  Feature Engineering
-
-- Created:
-  - Total Score
-  - Average Score
-  - Performance categories (Poor, Average, Good, Excellent)
-  - Z-score for normalization
+Key insights:
+- Reading and Writing scores are strongly correlated  
+- Math is relatively more difficult compared to other subjects  
 
 ---
 
-##  Statistical Analysis
+## Feature Engineering
 
-Performed hypothesis testing using T-test:
-
-- Test preparation has a **statistically significant impact** on performance (p < 0.05) :contentReference[oaicite:1]{index=1}
-- Students who completed test prep scored **~10% higher on average** :contentReference[oaicite:2]{index=2}
-
----
-
-##  Machine Learning Model
-
-Model Used:
-- Linear Regression
-
-###  Objective:
-Predict Math Score based on demographic and behavioral features
-
-###  Performance:
-- R² Score: 0.289
-- Mean Absolute Error: 10.38
-
-###  Key Drivers:
-- Ethnic Group
-- Lunch Type
-- Gender
-- Parental Education
-- Sports Activity :contentReference[oaicite:3]{index=3}
+- Total Score  
+- Average Score  
+- Performance categories (Poor, Average, Good, Excellent)  
+- Z-score normalization  
 
 ---
 
-##  Key Insights
+## Statistical Analysis
 
-- Parental education significantly impacts student performance
-- Test preparation improves scores notably
-- Sports activity has a slight positive effect
-- Gender performance is nearly equal with slight variation
-- Most students fall in the average performance range
+- Performed T-test to evaluate impact of test preparation  
+- Test preparation has a statistically significant effect (p < 0.05)  
+- Students with test preparation scored approximately 10 percent higher on average  
+
+---
+
+## Machine Learning Model
+
+Model: Linear Regression  
+
+Objective:  
+Predict Math Score using demographic and behavioral features  
+
+Performance:  
+- R² Score: 0.289  
+- Mean Absolute Error: 10.38  
+
+Key drivers:
+- Ethnic Group  
+- Lunch Type  
+- Gender  
+- Parental Education  
+- Sports Activity  
+
+---
+
+## Key Insights
+
+- Parental education strongly impacts performance  
+- Test preparation significantly improves scores  
+- Sports activity shows a slight positive impact  
+- Gender performance is nearly equal  
+- Most students fall in the average range  
 
 ---
 
