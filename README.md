@@ -1,20 +1,20 @@
-# 📊 Student Performance Analysis
+# Student Performance Analysis
 
 A complete data analysis and machine learning project focused on understanding the factors affecting student academic performance using real-world data.
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 This project analyzes student performance data to uncover patterns, relationships, and key factors that influence scores in Math, Reading, and Writing.
 
 The analysis includes data cleaning, visualization, statistical testing, and predictive modeling.
 
-📄 Full Report: [View PDF](student_analysis.pdf)
+Full Report: [View PDF](student_analysis.pdf)
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 - Source: Student Score Dataset
 - Total Records: 30,641
@@ -28,7 +28,7 @@ The analysis includes data cleaning, visualization, statistical testing, and pre
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - Python
 - Pandas
@@ -40,7 +40,7 @@ The analysis includes data cleaning, visualization, statistical testing, and pre
 
 ---
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 
 - Handled missing values using:
   - Mode (categorical features)
@@ -50,7 +50,7 @@ The analysis includes data cleaning, visualization, statistical testing, and pre
 
 ---
 
-## 📊 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 - Gender distribution analysis
 - Impact of parental education on performance
@@ -58,13 +58,13 @@ The analysis includes data cleaning, visualization, statistical testing, and pre
 - Subject-wise score distribution
 - Correlation analysis between subjects
 
-📌 Key Insight:
+ Key Insight:
 - Reading and Writing scores are highly correlated
 - Math is relatively more difficult compared to other subjects :contentReference[oaicite:0]{index=0}
 
 ---
 
-## 📈 Feature Engineering
+##  Feature Engineering
 
 - Created:
   - Total Score
@@ -74,7 +74,7 @@ The analysis includes data cleaning, visualization, statistical testing, and pre
 
 ---
 
-## 📉 Statistical Analysis
+##  Statistical Analysis
 
 Performed hypothesis testing using T-test:
 
@@ -83,19 +83,19 @@ Performed hypothesis testing using T-test:
 
 ---
 
-## 🤖 Machine Learning Model
+##  Machine Learning Model
 
 Model Used:
 - Linear Regression
 
-### 🎯 Objective:
+###  Objective:
 Predict Math Score based on demographic and behavioral features
 
-### 📊 Performance:
+###  Performance:
 - R² Score: 0.289
 - Mean Absolute Error: 10.38
 
-### 🔑 Key Drivers:
+###  Key Drivers:
 - Ethnic Group
 - Lunch Type
 - Gender
@@ -104,7 +104,7 @@ Predict Math Score based on demographic and behavioral features
 
 ---
 
-## 📌 Key Insights
+##  Key Insights
 
 - Parental education significantly impacts student performance
 - Test preparation improves scores notably
@@ -114,4 +114,4 @@ Predict Math Score based on demographic and behavioral features
 
 ---
 
-## 📂 Project Structure
+
